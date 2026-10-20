@@ -1,5 +1,7 @@
 # The AI Hypocrisy Index (Dataset)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23499320.svg)](https://doi.org/10.5281/zenodo.23499320)
+
 ![HasData, the web scraping API company behind this study](banner.png)
 
 Data behind [The AI Hypocrisy Index](https://hasdata.com/blog/ai-hypocrisy-index?utm_source=github&utm_medium=syndication&utm_campaign=ai-hypocrisy-index&utm_content=ai-hypocrisy-index-readme), a HasData study of the gap between what companies forbid in their Terms of Service and what they claim over user and public data. The sample is 35 companies that build AI models or run crawlers, plus the 150 most-visited consumer websites. Every clause in the files carries a verbatim quote that was checked as an exact substring of the fetched document.
@@ -167,7 +169,7 @@ Cite the study when you use its findings.
 }
 ```
 
-Every GitHub release of this repository is also archived on Zenodo with its own DOI, for work that has to point at the exact files it used. GitHub's "Cite this repository" button in the sidebar gives the study reference in APA and BibTeX.
+Every GitHub release of this repository is also archived on Zenodo, for work that has to point at the exact files it used. The DOI 10.5281/zenodo.23499320 always resolves to the latest release, and the [Zenodo record](https://doi.org/10.5281/zenodo.23499320) lists a separate DOI for each version. GitHub's "Cite this repository" button in the sidebar gives the study reference in APA and BibTeX.
 
 ## Disclaimer
 

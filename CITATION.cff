@@ -4,6 +4,7 @@ type: dataset
 title: "The AI Hypocrisy Index (Dataset)"
 authors:
   - name: "HasData"
+doi: 10.5281/zenodo.23499320
 url: "https://hasdata.com/blog/ai-hypocrisy-index"
 repository-code: "https://github.com/HasData/ai-hypocrisy-index"
 license: CC-BY-4.0
