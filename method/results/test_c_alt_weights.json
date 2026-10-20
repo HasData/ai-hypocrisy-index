@@ -1,0 +1,332 @@
+{
+  "n_companies": 35,
+  "schemes": [
+    "baseline (product)",
+    "equal-weight sum",
+    "no liquidated damages",
+    "forbid-only",
+    "take-only"
+  ],
+  "top10_by_scheme": {
+    "baseline (product)": [
+      {
+        "rank": 1,
+        "company": "Adobe",
+        "score": 4.4,
+        "baseline_rank": 1
+      },
+      {
+        "rank": 2,
+        "company": "Perplexity",
+        "score": 3.9,
+        "baseline_rank": 2
+      },
+      {
+        "rank": 3,
+        "company": "LinkedIn",
+        "score": 2.6,
+        "baseline_rank": 3
+      },
+      {
+        "rank": 4,
+        "company": "Reddit",
+        "score": 2.4,
+        "baseline_rank": 4
+      },
+      {
+        "rank": 5,
+        "company": "Yelp",
+        "score": 2.4,
+        "baseline_rank": 5
+      },
+      {
+        "rank": 6,
+        "company": "Amazon",
+        "score": 2.1,
+        "baseline_rank": 6
+      },
+      {
+        "rank": 7,
+        "company": "X Corp",
+        "score": 2.0,
+        "baseline_rank": 7
+      },
+      {
+        "rank": 8,
+        "company": "OpenAI",
+        "score": 1.75,
+        "baseline_rank": 8
+      },
+      {
+        "rank": 9,
+        "company": "Google",
+        "score": 1.75,
+        "baseline_rank": 9
+      },
+      {
+        "rank": 10,
+        "company": "Meta",
+        "score": 1.5,
+        "baseline_rank": 10
+      }
+    ],
+    "equal-weight sum": [
+      {
+        "rank": 1,
+        "company": "Adobe",
+        "score": 6.75,
+        "baseline_rank": 1
+      },
+      {
+        "rank": 2,
+        "company": "Perplexity",
+        "score": 6.25,
+        "baseline_rank": 2
+      },
+      {
+        "rank": 3,
+        "company": "Yelp",
+        "score": 5.5,
+        "baseline_rank": 5
+      },
+      {
+        "rank": 4,
+        "company": "LinkedIn",
+        "score": 5.25,
+        "baseline_rank": 3
+      },
+      {
+        "rank": 5,
+        "company": "Reddit",
+        "score": 5.0,
+        "baseline_rank": 4
+      },
+      {
+        "rank": 6,
+        "company": "Amazon",
+        "score": 4.75,
+        "baseline_rank": 6
+      },
+      {
+        "rank": 7,
+        "company": "OpenAI",
+        "score": 4.75,
+        "baseline_rank": 8
+      },
+      {
+        "rank": 8,
+        "company": "Google",
+        "score": 4.75,
+        "baseline_rank": 9
+      },
+      {
+        "rank": 9,
+        "company": "X Corp",
+        "score": 4.5,
+        "baseline_rank": 7
+      },
+      {
+        "rank": 10,
+        "company": "GitHub",
+        "score": 4.5,
+        "baseline_rank": 34
+      }
+    ],
+    "no liquidated damages": [
+      {
+        "rank": 1,
+        "company": "Adobe",
+        "score": 4.4,
+        "baseline_rank": 1
+      },
+      {
+        "rank": 2,
+        "company": "Perplexity",
+        "score": 3.9,
+        "baseline_rank": 2
+      },
+      {
+        "rank": 3,
+        "company": "LinkedIn",
+        "score": 2.6,
+        "baseline_rank": 3
+      },
+      {
+        "rank": 4,
+        "company": "Reddit",
+        "score": 2.4,
+        "baseline_rank": 4
+      },
+      {
+        "rank": 5,
+        "company": "Yelp",
+        "score": 2.4,
+        "baseline_rank": 5
+      },
+      {
+        "rank": 6,
+        "company": "Amazon",
+        "score": 2.1,
+        "baseline_rank": 6
+      },
+      {
+        "rank": 7,
+        "company": "OpenAI",
+        "score": 1.75,
+        "baseline_rank": 8
+      },
+      {
+        "rank": 8,
+        "company": "Google",
+        "score": 1.75,
+        "baseline_rank": 9
+      },
+      {
+        "rank": 9,
+        "company": "Meta",
+        "score": 1.5,
+        "baseline_rank": 10
+      },
+      {
+        "rank": 10,
+        "company": "Cohere",
+        "score": 1.5,
+        "baseline_rank": 11
+      }
+    ],
+    "forbid-only": [
+      {
+        "rank": 1,
+        "company": "Perplexity",
+        "score": 6.5,
+        "baseline_rank": 2
+      },
+      {
+        "rank": 2,
+        "company": "LinkedIn",
+        "score": 6.5,
+        "baseline_rank": 3
+      },
+      {
+        "rank": 3,
+        "company": "Adobe",
+        "score": 5.5,
+        "baseline_rank": 1
+      },
+      {
+        "rank": 4,
+        "company": "X Corp",
+        "score": 5.0,
+        "baseline_rank": 7
+      },
+      {
+        "rank": 5,
+        "company": "Midjourney",
+        "score": 4.5,
+        "baseline_rank": 13
+      },
+      {
+        "rank": 6,
+        "company": "Expedia",
+        "score": 4.5,
+        "baseline_rank": 14
+      },
+      {
+        "rank": 7,
+        "company": "Airbnb",
+        "score": 4.5,
+        "baseline_rank": 15
+      },
+      {
+        "rank": 8,
+        "company": "Reddit",
+        "score": 4.0,
+        "baseline_rank": 4
+      },
+      {
+        "rank": 9,
+        "company": "Amazon",
+        "score": 3.5,
+        "baseline_rank": 6
+      },
+      {
+        "rank": 10,
+        "company": "Yelp",
+        "score": 3.0,
+        "baseline_rank": 5
+      }
+    ],
+    "take-only": [
+      {
+        "rank": 1,
+        "company": "GitHub",
+        "score": 9.0,
+        "baseline_rank": 34
+      },
+      {
+        "rank": 2,
+        "company": "Adobe",
+        "score": 8.0,
+        "baseline_rank": 1
+      },
+      {
+        "rank": 3,
+        "company": "Yelp",
+        "score": 8.0,
+        "baseline_rank": 5
+      },
+      {
+        "rank": 4,
+        "company": "OpenAI",
+        "score": 7.0,
+        "baseline_rank": 8
+      },
+      {
+        "rank": 5,
+        "company": "Google",
+        "score": 7.0,
+        "baseline_rank": 9
+      },
+      {
+        "rank": 6,
+        "company": "Mistral",
+        "score": 7.0,
+        "baseline_rank": 28
+      },
+      {
+        "rank": 7,
+        "company": "Perplexity",
+        "score": 6.0,
+        "baseline_rank": 2
+      },
+      {
+        "rank": 8,
+        "company": "Reddit",
+        "score": 6.0,
+        "baseline_rank": 4
+      },
+      {
+        "rank": 9,
+        "company": "Amazon",
+        "score": 6.0,
+        "baseline_rank": 6
+      },
+      {
+        "rank": 10,
+        "company": "Meta",
+        "score": 6.0,
+        "baseline_rank": 10
+      }
+    ]
+  },
+  "robust_top5_all_schemes": [
+    "Adobe"
+  ],
+  "robust_top10_all_schemes": [
+    "Adobe",
+    "Amazon",
+    "Perplexity",
+    "Reddit",
+    "Yelp"
+  ]
+}

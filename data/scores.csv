@@ -1,0 +1,36 @@
+company,domain,is_ai_builder,forbid_score,take_score,hypocrisy_index,forbid_AS1,forbid_AS2,forbid_AS3,forbid_AS4,forbid_AS5,forbid_AS6,forbid_AS7,take_EX2,take_EX3,take_EX1,take_EX4,take_crawler,take_EX5,operates_training_crawler
+Adobe,adobe.com,True,5.5,8,4.4,2,2,0,1,0,0.5,0,3,1,1,2,0,1,False
+Perplexity,perplexity.ai,True,6.5,6,3.9,2,2,2,0,0,0.5,0,3,0,2,0,0,1,False
+LinkedIn,linkedin.com,True,6.5,4,2.6,2,2,2,0,0,0.5,0,0,0,1,2,0,1,False
+Reddit,reddit.com,False,4,6,2.4,2,0,2,0,0,0,0,3,0,2,0,0,1,False
+Yelp,yelp.com,False,3,8,2.4,2,0,0,1,0,0,0,3,0,2,2,0,1,False
+Amazon,amazon.com,True,3.5,6,2.1,2,0,0,1,0,0.5,0,3,0,2,0,0,1,False
+X Corp,x.com,True,5.0,4,2.0,2,0,0,0,2,0.5,0.5,3,0,1,0,0,0,False
+OpenAI,openai.com,True,2.5,7,1.75,2,0,0,0,0,0.5,0,3,1,0,2,1,0,True
+Google,google.com,True,2.5,7,1.75,2,0,0,0,0,0.5,0,3,0,0,2,1,1,True
+Meta,facebook.com,True,2.5,6,1.5,2,0,0,0,0,0.5,0,3,0,1,0,1,1,True
+Cohere,cohere.com,True,2.5,6,1.5,2,0,0,0,0,0.5,0,3,0,2,0,1,0,True
+Snap,snap.com,True,2.5,6,1.5,2,0,0,0,0,0.5,0,3,0,2,0,0,1,False
+Midjourney,midjourney.com,True,4.5,3,1.35,2,2,0,0,0,0.5,0,0,0,2,0,0,1,False
+Expedia,expedia.com,False,4.5,3,1.35,2,0,2,0,0,0.5,0,0,0,2,0,0,1,False
+Airbnb,airbnb.com,False,4.5,3,1.35,2,2,0,0,0,0.5,0,0,0,2,0,0,1,False
+Getty Images,gettyimages.com,True,2.5,5,1.25,2,0,0,0,0,0.5,0,0,0,2,2,0,1,False
+Booking.com,booking.com,False,2,6,1.2,2,0,0,0,0,0,0,3,0,0,2,0,1,False
+ByteDance/TikTok,tiktok.com,True,2.5,4,1.0,0,0,2,0,0,0.5,0,0,0,0,2,1,1,True
+DeepSeek,deepseek.com,True,2.5,4,1.0,2,0,0,0,0,0.5,0,3,1,0,0,0,0,False
+Shopify,shopify.com,False,2.5,2,0.5,2,0,0,0,0,0.5,0,0,0,1,0,0,1,False
+Zoom,zoom.us,False,1.5,2,0.3,0,0,0,1,0,0.5,0,0,0,1,0,0,1,False
+Atlassian,atlassian.com,False,0.5,5,0.25,0,0,0,0,0,0.5,0,3,0,0,2,0,0,False
+Common Crawl,commoncrawl.org,True,0.5,3,0.15,0,0,0,0,0,0.5,0,0,0,0,2,1,0,True
+Anthropic,anthropic.com,True,0,5,0.0,0,0,0,0,0,0,0,3,1,0,0,1,0,True
+xAI,x.ai,True,0,3,0.0,0,0,0,0,0,0,0,0,0,2,0,0,1,False
+Microsoft,microsoft.com,True,0,5,0.0,0,0,0,0,0,0,0,3,1,0,0,0,1,False
+Apple,apple.com,True,0,3,0.0,0,0,0,0,0,0,0,0,0,0,2,1,0,True
+Mistral,mistral.ai,True,0,7,0.0,0,0,0,0,0,0,0,3,1,0,2,0,1,False
+Stack Overflow,stackoverflow.com,False,0,3,0.0,0,0,0,0,0,0,0,0,0,2,0,0,1,False
+Salesforce/Slack,slack.com,False,0,2,0.0,0,0,0,0,0,0,0,0,0,1,0,0,1,False
+Nvidia,nvidia.com,True,0,2,0.0,0,0,0,0,0,0,0,0,0,1,0,0,1,False
+Pinterest,pinterest.com,False,0,2,0.0,0,0,0,0,0,0,0,0,0,1,0,0,1,False
+Quora,quora.com,True,0,5,0.0,0,0,0,0,0,0,0,3,1,1,0,0,0,False
+GitHub,github.com,True,0,9,0.0,0,0,0,0,0,0,0,3,1,2,2,0,1,False
+Stability AI,stability.ai,True,0,5,0.0,0,0,0,0,0,0,0,3,1,0,0,0,1,False

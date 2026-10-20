@@ -1,0 +1,71 @@
+{
+  "collection_date": "2026-07-23",
+  "llm_model": "deepseek-v4-flash",
+  "prompt_version": "v1",
+  "user_agent": "DoubleStandardIndexResearch/1.0",
+  "exclusions": [
+    {
+      "domain": "hasdata.com",
+      "reason": "HasData, the company behind this study, runs a web scraping API. Its domain was excluded to avoid a conflict of interest."
+    }
+  ],
+  "wayback_target_dates": [
+    "2022-06-01",
+    "2023-06-01",
+    "2024-06-01",
+    "2025-06-01"
+  ],
+  "scoring_weights": {
+    "forbid": {
+      "AS1_general_scraping_ban": 2,
+      "AS2_absolute_ban": 2,
+      "AS3_written_consent_required": 2,
+      "AS4_ai_training_ban_on_their_content": 1,
+      "AS5_liquidated_damages": 2,
+      "AS6_anti_circumvention": 0.5,
+      "AS7_api_only_access": 0.5,
+      "cap": 10
+    },
+    "take": {
+      "EX2_ai_training_on_user_content": 3,
+      "EX3_ai_training_opt_out": 1,
+      "EX3_ai_training_opt_in": 0,
+      "EX1_license_strong": 2,
+      "EX1_license_basic": 1,
+      "EX4_public_data_collection": 2,
+      "operates_training_crawler": 1,
+      "EX5_data_sharing_or_licensing": 1,
+      "cap": 10
+    },
+    "index": {
+      "formula": "forbid_score * take_score / 10"
+    }
+  },
+  "library_versions": {
+    "requests": "2.34.2",
+    "trafilatura": "2.1.0",
+    "beautifulsoup4": "4.15.0",
+    "pandas": "3.0.5",
+    "openpyxl": "3.1.5",
+    "openai": "2.47.0",
+    "protego": "0.6.2",
+    "simhash": "2.1.2",
+    "tenacity": "9.1.4",
+    "PyYAML": "6.0.3"
+  },
+  "tranco_list_id": "94Y82",
+  "tierB_kept": 150,
+  "tierB_blocklisted": 252,
+  "tierB_no_consumer_tos": 321,
+  "counts": {
+    "document_versions": 269,
+    "tier_a_with_tos": 34,
+    "tier_a_total": 35,
+    "findings_rows": 2359
+  },
+  "verification_stats": {
+    "not_found": 1945,
+    "found": 402,
+    "verification_failed": 12
+  }
+}

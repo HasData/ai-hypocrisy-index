@@ -1,0 +1,31 @@
+{
+  "upload_type": "dataset",
+  "title": "The AI Hypocrisy Index (Dataset)",
+  "description": "<p>Data behind <a href=\"https://hasdata.com/blog/ai-hypocrisy-index\">The AI Hypocrisy Index</a>, a HasData study of the gap between what companies forbid in their Terms of Service and what they claim over user and public data.</p><p>The sample is 35 companies that build AI models or operate crawlers (Tier A) and the 150 most-visited consumer websites from the Tranco ranking, list 94Y82 (Tier B). Terms of Service, Privacy Policies (Tier A only) and robots.txt files were fetched on July 23, 2026, with archived Wayback Machine versions for context. Each document was classified against a 12-clause taxonomy of 7 anti-scraping and 5 extraction clauses, and every reported clause carries a verbatim quote verified as an exact substring of the fetched text. 402 quotes passed that check.</p><p>This release ships the Index with its forbid and take scores for every Tier A company, all 402 verified quotes, every clause check on current and archived documents, the robots.txt rules of 197 domains for 26 crawler user agents, a crawler registry, the document hashes, and three standard-library Python scripts that recompute the study's checks. Raw document texts are not included.</p>",
+  "creators": [
+    {
+      "name": "HasData"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "keywords": [
+    "Terms of Service",
+    "privacy policy",
+    "robots.txt",
+    "AI crawlers",
+    "AI training data",
+    "web scraping",
+    "GPTBot",
+    "Tranco"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://hasdata.com/blog/ai-hypocrisy-index",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "url"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use these findings, please cite the HasData study as below."
+type: dataset
+title: "The AI Hypocrisy Index (Dataset)"
+authors:
+  - name: "HasData"
+url: "https://hasdata.com/blog/ai-hypocrisy-index"
+repository-code: "https://github.com/HasData/ai-hypocrisy-index"
+license: CC-BY-4.0
+keywords:
+  - "Terms of Service"
+  - "robots.txt"
+  - "AI crawlers"
+  - "AI training data"
+  - "web scraping"
+preferred-citation:
+  type: blog
+  title: "The AI Hypocrisy Index"
+  authors:
+    - name: "HasData"
+  publisher:
+    name: "HasData"
+  year: 2026
+  url: "https://hasdata.com/blog/ai-hypocrisy-index"

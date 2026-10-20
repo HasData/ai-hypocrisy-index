@@ -1,0 +1,27 @@
+operator_company,user_agent,purpose,official_doc_url,evidence_saved_path,fetch_status,evidence_grade
+OpenAI,GPTBot,training,https://platform.openai.com/docs/bots,data/evidence/crawler_docs/https_platform.openai.com_docs_bots.txt,ok,official
+OpenAI,OAI-SearchBot,search,https://platform.openai.com/docs/bots,data/evidence/crawler_docs/https_platform.openai.com_docs_bots.txt,ok,official
+OpenAI,ChatGPT-User,user_fetch,https://platform.openai.com/docs/bots,data/evidence/crawler_docs/https_platform.openai.com_docs_bots.txt,ok,official
+Anthropic,ClaudeBot,training,https://support.anthropic.com/en/articles/8896518,data/evidence/crawler_docs/https_support.anthropic.com_en_articles_8896518.txt,ok,official
+Anthropic,Claude-User,user_fetch,https://support.anthropic.com/en/articles/8896518,data/evidence/crawler_docs/https_support.anthropic.com_en_articles_8896518.txt,ok,official
+Anthropic,Claude-SearchBot,search,https://support.anthropic.com/en/articles/8896518,data/evidence/crawler_docs/https_support.anthropic.com_en_articles_8896518.txt,ok,official
+Anthropic,anthropic-ai,training,https://support.anthropic.com/en/articles/8896518,data/evidence/crawler_docs/https_support.anthropic.com_en_articles_8896518.txt,ok,official
+Google,Googlebot,search,https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers,data/evidence/crawler_docs/https_developers.google.com_search_docs_crawling-indexing_overview-google-crawlers.txt,ok,official
+Google,Google-Extended,training,https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers,data/evidence/crawler_docs/https_developers.google.com_search_docs_crawling-indexing_google-common-crawlers.txt,ok,official
+Apple,Applebot,search,https://support.apple.com/en-us/119829,data/evidence/crawler_docs/https_support.apple.com_en-us_119829.txt,ok,official
+Apple,Applebot-Extended,training,https://support.apple.com/en-us/119829,data/evidence/crawler_docs/https_support.apple.com_en-us_119829.txt,ok,official
+Meta,Meta-ExternalAgent,training,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/,data/evidence/crawler_docs/https_developers.facebook.com_docs_sharing_webmasters_web-crawlers.txt,ok,official
+Meta,Meta-ExternalFetcher,user_fetch,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/,data/evidence/crawler_docs/https_developers.facebook.com_docs_sharing_webmasters_web-crawlers.txt,ok,official
+Meta,FacebookBot,mixed,https://developers.facebook.com/docs/sharing/webmasters/web-crawlers/,data/evidence/crawler_docs/https_developers.facebook.com_docs_sharing_webmasters_web-crawlers.txt,ok,official
+ByteDance/TikTok,Bytespider,training,https://support.bytespider.io/,,unreachable,reported
+ByteDance/TikTok,TikTokSpider,mixed,https://support.bytespider.io/,,unreachable,reported
+Perplexity,PerplexityBot,search,https://docs.perplexity.ai/guides/bots,data/evidence/crawler_docs/https_docs.perplexity.ai_guides_bots.txt,ok,official
+Perplexity,Perplexity-User,user_fetch,https://docs.perplexity.ai/guides/bots,data/evidence/crawler_docs/https_docs.perplexity.ai_guides_bots.txt,ok,official
+Common Crawl,CCBot,training,https://commoncrawl.org/ccbot,data/evidence/crawler_docs/https_commoncrawl.org_ccbot.txt,too_short,official
+Amazon,Amazonbot,mixed,https://developer.amazon.com/amazonbot,data/evidence/crawler_docs/https_developer.amazon.com_amazonbot.txt,ok,official
+Microsoft,Bingbot,search,https://www.bing.com/webmasters/help/which-crawlers-does-bing-use-8c184ec0,data/evidence/crawler_docs/https_www.bing.com_webmasters_help_which-crawlers-does-bing-use-8c184ec0.txt,ok,official
+Mistral,MistralAI-User,user_fetch,https://docs.mistral.ai/,data/evidence/crawler_docs/https_docs.mistral.ai.txt,ok,official
+Cohere,cohere-ai,training,https://cohere.com/,data/evidence/crawler_docs/https_cohere.com.txt,ok,official
+Timpi,Timpibot,training,https://timpi.io/,data/evidence/crawler_docs/https_timpi.io.txt,too_short,official
+Diffbot,Diffbot,training,https://docs.diffbot.com/docs/en/guides-crawlbot-faq,,unreachable,reported
+DuckDuckGo,DuckAssistBot,user_fetch,https://duckduckgo.com/duckduckgo-help-pages/results/duckassistbot/,data/evidence/crawler_docs/https_duckduckgo.com_duckduckgo-help-pages_results_duckassistbot.txt,ok,official

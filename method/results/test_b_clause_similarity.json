@@ -1,0 +1,1184 @@
+{
+  "n_clauses": 276,
+  "n_companies_with_anti_scraping": 114,
+  "high_sim_pairs": [
+    {
+      "sim": 1.0,
+      "company_a": "goodreads.com",
+      "clause_type_a": "AS2",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools",
+      "company_b": "elasticbeanstalk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "goodreads.com",
+      "clause_type_a": "AS1",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools",
+      "company_b": "elasticbeanstalk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "adtrafficquality.google",
+      "clause_type_a": "AS1",
+      "quote_a": "we reasonably believe that your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you",
+      "company_b": "g.page",
+      "clause_type_b": "AS1",
+      "quote_b": "we reasonably believe that your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "scribd.com",
+      "clause_type_a": "AS1",
+      "quote_a": "Use robots, spiders, scrapers, bots, text or data mining tools, or other automated means to access the Services",
+      "company_b": "slideshare.net",
+      "clause_type_b": "AS1",
+      "quote_b": "Use robots, spiders, scrapers, bots, text or data mining tools, or other automated means to access the Services"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "snapchat.com",
+      "clause_type_a": "AS6",
+      "quote_a": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access",
+      "company_b": "Snap",
+      "clause_type_b": "AS6",
+      "quote_b": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "snapchat.com",
+      "clause_type_a": "AS1",
+      "quote_a": "use any robot, spider, crawler, scraper, script, software, or other automated or semi-automated means, processes or interfaces to access, scrape, extract or copy the Services",
+      "company_b": "Snap",
+      "clause_type_b": "AS1",
+      "quote_b": "use any robot, spider, crawler, scraper, script, software, or other automated or semi-automated means, processes or interfaces to access, scrape, extract or copy the Services"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "Snap",
+      "clause_type_a": "AS6",
+      "quote_a": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access",
+      "company_b": "snapchat.com",
+      "clause_type_b": "AS6",
+      "quote_b": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "Snap",
+      "clause_type_a": "AS1",
+      "quote_a": "use any robot, spider, crawler, scraper, script, software, or other automated or semi-automated means, processes or interfaces to access, scrape, extract or copy the Services",
+      "company_b": "snapchat.com",
+      "clause_type_b": "AS1",
+      "quote_b": "use any robot, spider, crawler, scraper, script, software, or other automated or semi-automated means, processes or interfaces to access, scrape, extract or copy the Services"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "adtrafficquality.google",
+      "clause_type_a": "AS6",
+      "quote_a": "You must not abuse, harm, interfere with, or disrupt our services or systems \u2014 for example, by:- introducing malware - spamming, hacking, or bypassing our systems or protective measures",
+      "company_b": "g.page",
+      "clause_type_b": "AS6",
+      "quote_b": "You must not abuse, harm, interfere with, or disrupt our services or systems \u2014 for example, by:- introducing malware - spamming, hacking, or bypassing our systems or protective measures"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "Google",
+      "clause_type_a": "AS6",
+      "quote_a": "spamming, hacking, or bypassing our systems or protective measures",
+      "company_b": "pki.goog",
+      "clause_type_b": "AS6",
+      "quote_b": "spamming, hacking, or bypassing our systems or protective measures"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "Google",
+      "clause_type_a": "AS6",
+      "quote_a": "spamming, hacking, or bypassing our systems or protective measures",
+      "company_b": "pki.goog",
+      "clause_type_b": "AS6",
+      "quote_b": "spamming, hacking, or bypassing our systems or protective measures"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "netflix.com",
+      "clause_type_a": "AS1",
+      "quote_a": "use any robot, spider, scraper or other automated means to access the Netflix service",
+      "company_b": "netflix.net",
+      "clause_type_b": "AS1",
+      "quote_b": "use any robot, spider, scraper or other automated means to access the Netflix service"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "X Corp",
+      "clause_type_a": "AS1",
+      "quote_a": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces",
+      "company_b": "tumblr.com",
+      "clause_type_b": "AS7",
+      "quote_b": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces"
+    },
+    {
+      "sim": 1.0,
+      "company_a": "netflix.com",
+      "clause_type_a": "AS4",
+      "quote_a": "engage in any of the foregoing in connection with the use, creation, development, modification, prompting, fine-tuning, training, testing, benchmarking or validation of any machine learning tool",
+      "company_b": "netflix.net",
+      "clause_type_b": "AS4",
+      "quote_b": "engage in any of the foregoing in connection with the use, creation, development, modification, prompting, fine-tuning, training, testing, benchmarking or validation of any machine learning tool"
+    },
+    {
+      "sim": 0.993,
+      "company_a": "scribd.com",
+      "clause_type_a": "AS4",
+      "quote_a": "Use any content made available through the Services for the purpose of training, fine-tuning, or otherwise developing a large language model or similar artificial intelligence system",
+      "company_b": "slideshare.net",
+      "clause_type_b": "AS4",
+      "quote_b": "Use any content made available through the Services for the purpose of training, fine-tuning, or otherwise developing a large language model or similar artificial intelligence system."
+    },
+    {
+      "sim": 0.94,
+      "company_a": "imdb.com",
+      "clause_type_a": "AS1",
+      "quote_a": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on this site",
+      "company_b": "britannica.com",
+      "clause_type_b": "AS1",
+      "quote_b": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on the Services"
+    },
+    {
+      "sim": 0.938,
+      "company_a": "Getty Images",
+      "clause_type_a": "AS1",
+      "quote_a": "using any data mining, robots or similar data gathering or extraction methods",
+      "company_b": "uk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "use of any data mining, robots or similar data gathering or extraction methods"
+    },
+    {
+      "sim": 0.936,
+      "company_a": "X Corp",
+      "clause_type_a": "AS7",
+      "quote_a": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by us",
+      "company_b": "tumblr.com",
+      "clause_type_b": "AS7",
+      "quote_b": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces"
+    },
+    {
+      "sim": 0.929,
+      "company_a": "OpenAI",
+      "clause_type_a": "AS1",
+      "quote_a": "Automatically or programmatically extracting data or Output",
+      "company_b": "weather.com",
+      "clause_type_b": "AS1",
+      "quote_b": "automatically or programmatically extract data or output"
+    },
+    {
+      "sim": 0.924,
+      "company_a": "Google",
+      "clause_type_a": "AS1",
+      "quote_a": "your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you",
+      "company_b": "g.page",
+      "clause_type_b": "AS1",
+      "quote_b": "we reasonably believe that your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you"
+    },
+    {
+      "sim": 0.924,
+      "company_a": "Google",
+      "clause_type_a": "AS1",
+      "quote_a": "your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you",
+      "company_b": "adtrafficquality.google",
+      "clause_type_b": "AS1",
+      "quote_b": "we reasonably believe that your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you"
+    },
+    {
+      "sim": 0.915,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "Getty Images",
+      "clause_type_b": "AS1",
+      "quote_b": "using any data mining, robots or similar data gathering or extraction methods"
+    },
+    {
+      "sim": 0.911,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "uk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "use of any data mining, robots or similar data gathering or extraction methods"
+    },
+    {
+      "sim": 0.91,
+      "company_a": "OpenAI",
+      "clause_type_a": "AS6",
+      "quote_a": "circumventing any rate limits or restrictions or bypassing any protective measures or safety mitigations we put on our Services",
+      "company_b": "chatgpt.com",
+      "clause_type_b": "AS6",
+      "quote_b": "circumventing any rate limits or restrictions or bypassing any protective measures or safety mitigations"
+    },
+    {
+      "sim": 0.872,
+      "company_a": "Amazon",
+      "clause_type_a": "AS4",
+      "quote_a": "You will not, and will not allow any third party to, use AI-generated content from the Amazon Services to, directly or indirectly, develop or improve large language or multimodal models, machine learning models or related technology.",
+      "company_b": "amzn.to",
+      "clause_type_b": "AS4",
+      "quote_b": "use AI-generated content from the Amazon Services to, directly or indirectly, develop or improve large language or multimodal models, machine learning models or related technology."
+    },
+    {
+      "sim": 0.856,
+      "company_a": "Getty Images",
+      "clause_type_a": "AS1",
+      "quote_a": "(b) using any data mining, robots or similar data gathering or extraction methods;",
+      "company_b": "uk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "use of any data mining, robots or similar data gathering or extraction methods"
+    },
+    {
+      "sim": 0.855,
+      "company_a": "netflix.com",
+      "clause_type_a": "AS6",
+      "quote_a": "circumvent, remove, alter, deactivate, degrade, block, obscure or thwart any of the content protections or other elements of the Netflix service",
+      "company_b": "netflix.net",
+      "clause_type_b": "AS6",
+      "quote_b": "circumvent, remove, alter, deactivate, degrade, block, obscure or thwart any of the content protections"
+    },
+    {
+      "sim": 0.854,
+      "company_a": "X Corp",
+      "clause_type_a": "AS7",
+      "quote_a": "access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by us",
+      "company_b": "tumblr.com",
+      "clause_type_b": "AS7",
+      "quote_b": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces"
+    },
+    {
+      "sim": 0.848,
+      "company_a": "ui.com",
+      "clause_type_a": "AS6",
+      "quote_a": "remove, circumvent, disable, damage, or otherwise interfere with security-related features of the Services",
+      "company_b": "slideshare.net",
+      "clause_type_b": "AS6",
+      "quote_b": "Remove, circumvent, disable, damage, or otherwise interfere with security features"
+    },
+    {
+      "sim": 0.841,
+      "company_a": "walmart.com",
+      "clause_type_a": "AS2",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools is strictly prohibited.",
+      "company_b": "elasticbeanstalk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 0.841,
+      "company_a": "walmart.com",
+      "clause_type_a": "AS1",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools is strictly prohibited.",
+      "company_b": "elasticbeanstalk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 0.841,
+      "company_a": "goodreads.com",
+      "clause_type_a": "AS2",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools",
+      "company_b": "walmart.com",
+      "clause_type_b": "AS2",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools is strictly prohibited."
+    },
+    {
+      "sim": 0.841,
+      "company_a": "goodreads.com",
+      "clause_type_a": "AS2",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools",
+      "company_b": "walmart.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools is strictly prohibited."
+    },
+    {
+      "sim": 0.841,
+      "company_a": "goodreads.com",
+      "clause_type_a": "AS1",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools",
+      "company_b": "walmart.com",
+      "clause_type_b": "AS2",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools is strictly prohibited."
+    },
+    {
+      "sim": 0.841,
+      "company_a": "goodreads.com",
+      "clause_type_a": "AS1",
+      "quote_a": "any use of data mining, robots, or similar data gathering and extraction tools",
+      "company_b": "walmart.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools is strictly prohibited."
+    },
+    {
+      "sim": 0.835,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "Getty Images",
+      "clause_type_b": "AS1",
+      "quote_b": "(b) using any data mining, robots or similar data gathering or extraction methods;"
+    },
+    {
+      "sim": 0.833,
+      "company_a": "OpenAI",
+      "clause_type_a": "AS1",
+      "quote_a": "Automatically or programmatically extracting data or Output",
+      "company_b": "chatgpt.com",
+      "clause_type_b": "AS1",
+      "quote_b": "Automatically or programmatically extracting data or Output (defined below)."
+    },
+    {
+      "sim": 0.812,
+      "company_a": "uk.com",
+      "clause_type_a": "AS3",
+      "quote_a": "Any use of the Sites or Site Materials other than as specifically authorized herein, without the prior written permission of UK.COM, is strictly prohibited",
+      "company_b": "nintendo.com",
+      "clause_type_b": "AS3",
+      "quote_b": "Any use of the Services or the Materials other than as specifically authorized herein, without the prior written permission of Nintendo, is strictly prohibited"
+    },
+    {
+      "sim": 0.811,
+      "company_a": "cpanel.net",
+      "clause_type_a": "AS6",
+      "quote_a": "attempt to gain unauthorized access to the Site or Services, other accounts, computer systems or networks connected to any cPanel server or to any of the Services, through hacking, password mining or any other means",
+      "company_b": "indiatimes.com",
+      "clause_type_b": "AS6",
+      "quote_b": "You may not attempt to gain unauthorized access to any Services, other accounts, computer systems or to any of the Services, through hacking, password mining or any other means."
+    },
+    {
+      "sim": 0.777,
+      "company_a": "imdb.com",
+      "clause_type_a": "AS3",
+      "quote_a": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on this site, except with our express written consent",
+      "company_b": "britannica.com",
+      "clause_type_b": "AS1",
+      "quote_b": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on the Services"
+    },
+    {
+      "sim": 0.774,
+      "company_a": "Google",
+      "clause_type_a": "AS6",
+      "quote_a": "bypassing our systems or protective measures",
+      "company_b": "pki.goog",
+      "clause_type_b": "AS6",
+      "quote_b": "spamming, hacking, or bypassing our systems or protective measures"
+    },
+    {
+      "sim": 0.774,
+      "company_a": "chatgpt.com",
+      "clause_type_a": "AS1",
+      "quote_a": "Automatically or programmatically extracting data or Output (defined below).",
+      "company_b": "weather.com",
+      "clause_type_b": "AS1",
+      "quote_b": "automatically or programmatically extract data or output"
+    },
+    {
+      "sim": 0.766,
+      "company_a": "cpanel.net",
+      "clause_type_a": "AS6",
+      "quote_a": "attempt to gain unauthorized access to the Site or Services, other accounts, computer systems or networks connected to any cPanel server or to any of the Services, through hacking, password mining or any other means",
+      "company_b": "creativecommons.org",
+      "clause_type_b": "AS6",
+      "quote_b": "You may not attempt to gain unauthorized access to the Services, or the computer systems or networks connected to the Services, through hacking password mining or any other means."
+    },
+    {
+      "sim": 0.756,
+      "company_a": "creativecommons.org",
+      "clause_type_a": "AS6",
+      "quote_a": "You may not attempt to gain unauthorized access to the Services, or the computer systems or networks connected to the Services, through hacking password mining or any other means.",
+      "company_b": "indiatimes.com",
+      "clause_type_b": "AS6",
+      "quote_b": "You may not attempt to gain unauthorized access to any Services, other accounts, computer systems or to any of the Services, through hacking, password mining or any other means."
+    },
+    {
+      "sim": 0.74,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "duolingo.com",
+      "clause_type_b": "AS1",
+      "quote_b": "You may not use any data mining, robots, scraping, or similar data gathering or extraction methods to obtain Service Content."
+    },
+    {
+      "sim": 0.739,
+      "company_a": "opendns.com",
+      "clause_type_a": "AS6",
+      "quote_a": "bypass any measures OpenDNS may use to prevent or restrict access to the Services or Software",
+      "company_b": "cloudns.net",
+      "clause_type_b": "AS6",
+      "quote_b": "bypass any measures ClouDNS may use to prevent or restrict access to the Service."
+    },
+    {
+      "sim": 0.73,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "elasticbeanstalk.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 0.73,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "goodreads.com",
+      "clause_type_b": "AS2",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 0.73,
+      "company_a": "Cohere",
+      "clause_type_a": "AS1",
+      "quote_a": "use any data mining, robots, or similar data gathering or extraction methods",
+      "company_b": "goodreads.com",
+      "clause_type_b": "AS1",
+      "quote_b": "any use of data mining, robots, or similar data gathering and extraction tools"
+    },
+    {
+      "sim": 0.726,
+      "company_a": "Amazon",
+      "clause_type_a": "AS1",
+      "quote_a": "No Agent may access, use, or interact with Amazon Services unless, at all times, it identifies itself and operates in strict accordance with the requirements in section 3 of these Agent Terms.",
+      "company_b": "amzn.to",
+      "clause_type_b": "AS1",
+      "quote_b": "No Agent may access, use, or interact with Amazon Services unless, at all times, it identifies itself"
+    }
+  ],
+  "clusters_at_035": [
+    {
+      "n_quotes": 24,
+      "companies": [
+        "Airbnb",
+        "Expedia",
+        "Perplexity",
+        "Shopify",
+        "Snap",
+        "businessinsider.com",
+        "capcut.com",
+        "cloudns.net",
+        "discord.com",
+        "indiatimes.com",
+        "netflix.com",
+        "netflix.net",
+        "scribd.com",
+        "slideshare.net",
+        "snapchat.com",
+        "trendmicro.com",
+        "unsplash.com"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS2",
+        "AS3",
+        "AS7"
+      ],
+      "example_quotes": [
+        {
+          "company": "netflix.com",
+          "quote": "use any robot, spider, scraper or other automated means to access the Netflix service"
+        },
+        {
+          "company": "Perplexity",
+          "quote": "use any robot, spider, crawlers, scraper, or other automatic device, process, software or queries"
+        },
+        {
+          "company": "Expedia",
+          "quote": "access, monitor or copy any content or information of this Website using any robot, spider, scraper or other automated means or any manual process for any purpose without our express written permissio"
+        },
+        {
+          "company": "Expedia",
+          "quote": "access, monitor or copy any content or information of this Website using any robot, spider, scraper or other automated means or any manual process for any purpose without our express written permissio"
+        },
+        {
+          "company": "Shopify",
+          "quote": "You agree not to access the Services or monitor any material or information from the Services using any robot, spider, scraper, or other automated means."
+        }
+      ]
+    },
+    {
+      "n_quotes": 21,
+      "companies": [
+        "Adobe",
+        "Cohere",
+        "Getty Images",
+        "britannica.com",
+        "duolingo.com",
+        "dynatrace.com",
+        "elasticbeanstalk.com",
+        "forbes.com",
+        "goodreads.com",
+        "imdb.com",
+        "issuu.com",
+        "uk.com",
+        "walmart.com"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS2",
+        "AS3"
+      ],
+      "example_quotes": [
+        {
+          "company": "Cohere",
+          "quote": "use any data mining, robots, or similar data gathering or extraction methods"
+        },
+        {
+          "company": "Getty Images",
+          "quote": "(b) using any data mining, robots or similar data gathering or extraction methods;"
+        },
+        {
+          "company": "imdb.com",
+          "quote": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on this site"
+        },
+        {
+          "company": "imdb.com",
+          "quote": "You may not use data mining, robots, screen scraping, or similar data gathering and extraction tools on this site, except with our express written consent"
+        },
+        {
+          "company": "forbes.com",
+          "quote": "Use any data mining, robot, spider, cancelbot, Trojan horse, or any data gathering, scraping, indexing, or extraction method on any part of the Website or Forbes Channels"
+        }
+      ]
+    },
+    {
+      "n_quotes": 16,
+      "companies": [
+        "Amazon",
+        "Google",
+        "adtrafficquality.google",
+        "amzn.to",
+        "ft.com",
+        "g.page",
+        "intuit.com",
+        "pki.goog",
+        "theguardian.com",
+        "time.com",
+        "unsplash.com"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS4"
+      ],
+      "example_quotes": [
+        {
+          "company": "Amazon",
+          "quote": "You will not, and will not allow any third party to, use AI-generated content from the Amazon Services to, directly or indirectly, develop or improve large language or multimodal models, machine learn"
+        },
+        {
+          "company": "Google",
+          "quote": "your conduct causes harm or liability to a user, third party, or Google \u2014 for example, by hacking, phishing, harassing, spamming, misleading others, or scraping content that doesn\u2019t belong to you"
+        },
+        {
+          "company": "Google",
+          "quote": "using AI-generated content from our services to develop machine learning models or related AI technology"
+        },
+        {
+          "company": "Google",
+          "quote": "or scraping content that doesn\u2019t belong to you"
+        },
+        {
+          "company": "Google",
+          "quote": "scraping content that doesn\u2019t belong to you"
+        }
+      ]
+    },
+    {
+      "n_quotes": 15,
+      "companies": [
+        "Common Crawl",
+        "Getty Images",
+        "Perplexity",
+        "cisco.com",
+        "foxnews.com",
+        "issuu.com",
+        "netflix.com",
+        "netflix.net",
+        "scribd.com",
+        "slideshare.net",
+        "time.com",
+        "ui.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "netflix.com",
+          "quote": "circumvent, remove, alter, deactivate, degrade, block, obscure or thwart any of the content protections or other elements of the Netflix service"
+        },
+        {
+          "company": "Common Crawl",
+          "quote": "circumventing, disabling or interfering with security features on the Site"
+        },
+        {
+          "company": "Common Crawl",
+          "quote": "circumventing, disabling or interfering with security features on the Site"
+        },
+        {
+          "company": "Common Crawl",
+          "quote": "circumventing, disabling or interfering with security features on the Site;"
+        },
+        {
+          "company": "Perplexity",
+          "quote": "circumvent, remove, alter, deactivate, degrade or thwart any technological measure or content protections of the Services"
+        }
+      ]
+    },
+    {
+      "n_quotes": 9,
+      "companies": [
+        "Reddit",
+        "X Corp",
+        "dailymotion.com"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS2",
+        "AS3"
+      ],
+      "example_quotes": [
+        {
+          "company": "X Corp",
+          "quote": "crawling or scraping the Services in any form, for any purpose without our prior written consent is expressly prohibited"
+        },
+        {
+          "company": "X Corp",
+          "quote": "crawling or scraping the Services in any form, for any purpose without our prior written consent is expressly prohibited"
+        },
+        {
+          "company": "X Corp",
+          "quote": "crawling or scraping the Services in any form, for any purpose without our prior written consent is expressly prohibited"
+        },
+        {
+          "company": "X Corp",
+          "quote": "crawling or scraping the Services in any form, for any purpose without our prior written consent is expressly prohibited"
+        },
+        {
+          "company": "X Corp",
+          "quote": "without our prior written consent is expressly prohibited"
+        }
+      ]
+    },
+    {
+      "n_quotes": 8,
+      "companies": [
+        "Google",
+        "OpenAI",
+        "adtrafficquality.google",
+        "chatgpt.com",
+        "g.page",
+        "pki.goog"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "OpenAI",
+          "quote": "circumventing any rate limits or restrictions or bypassing any protective measures or safety mitigations we put on our Services"
+        },
+        {
+          "company": "chatgpt.com",
+          "quote": "circumventing any rate limits or restrictions or bypassing any protective measures or safety mitigations"
+        },
+        {
+          "company": "Google",
+          "quote": "bypassing our systems or protective measures"
+        },
+        {
+          "company": "Google",
+          "quote": "spamming, hacking, or bypassing our systems or protective measures"
+        },
+        {
+          "company": "Google",
+          "quote": "spamming, hacking, or bypassing our systems or protective measures"
+        }
+      ]
+    },
+    {
+      "n_quotes": 7,
+      "companies": [
+        "Midjourney",
+        "Shopify",
+        "X Corp",
+        "britannica.com",
+        "imdb.com",
+        "stripe.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "X Corp",
+          "quote": "work around any technical limitations in the software provided to you as part of the Services, or reverse engineer, decompile or disassemble the software"
+        },
+        {
+          "company": "X Corp",
+          "quote": "You agree that you will not work around any technical limitations in the software provided to you as part of the Services"
+        },
+        {
+          "company": "imdb.com",
+          "quote": "You may not, and you will not encourage, assist or authorize any other person to modify, reverse engineer, decompile or disassemble, or otherwise tamper with, the IMDb Software"
+        },
+        {
+          "company": "Shopify",
+          "quote": "You agree not to work around, bypass, or circumvent any of the technical limitations of the Services"
+        },
+        {
+          "company": "stripe.com",
+          "quote": "work around any of the technical limitations of the Service, use any tool to enable features or functionalities that are otherwise disabled in the Service"
+        }
+      ]
+    },
+    {
+      "n_quotes": 6,
+      "companies": [
+        "Reddit",
+        "X Corp",
+        "forter.com",
+        "tumblr.com"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS6",
+        "AS7"
+      ],
+      "example_quotes": [
+        {
+          "company": "X Corp",
+          "quote": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by us"
+        },
+        {
+          "company": "X Corp",
+          "quote": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces"
+        },
+        {
+          "company": "X Corp",
+          "quote": "access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces that are provided by us"
+        },
+        {
+          "company": "tumblr.com",
+          "quote": "access or search or attempt to access or search the Services by any means (automated or otherwise) other than through our currently available, published interfaces"
+        },
+        {
+          "company": "forter.com",
+          "quote": "Access or attempt to access or use the Site other than through the interface that is provided by Forter"
+        }
+      ]
+    },
+    {
+      "n_quotes": 5,
+      "companies": [
+        "Amazon",
+        "Zoom",
+        "capcut.com",
+        "indeed.com",
+        "plesk.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "Amazon",
+          "quote": "You may not reverse engineer, decompile or disassemble, tamper with, apply any other process or procedure to derive the source code or other underlying components (such as a model, model parameters, o"
+        },
+        {
+          "company": "Zoom",
+          "quote": "modify, customize, disassemble, decompile, prepare derivative works of, create improvements, derive innovations from, reverse engineer, or attempt to gain access to any underlying technology"
+        },
+        {
+          "company": "capcut.com",
+          "quote": "attempt to, decipher, modify, adapt, translate, reverse engineer, disassemble, decompile or create any derivative works based on the Services"
+        },
+        {
+          "company": "plesk.com",
+          "quote": "decompile, reverse engineer, disassemble, or otherwise attempt to derive the source code or underlying structure of the extension"
+        },
+        {
+          "company": "indeed.com",
+          "quote": "You agree that you will not reverse engineer, disassemble, decompile, decode, adapt, or otherwise attempt to derive or gain access to any source code or any portion of Smart Screening."
+        }
+      ]
+    },
+    {
+      "n_quotes": 5,
+      "companies": [
+        "braze.com",
+        "cpanel.net",
+        "creativecommons.org",
+        "doubleverify.com",
+        "indiatimes.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "cpanel.net",
+          "quote": "attempt to gain unauthorized access to the Site or Services, other accounts, computer systems or networks connected to any cPanel server or to any of the Services, through hacking, password mining or "
+        },
+        {
+          "company": "creativecommons.org",
+          "quote": "You may not attempt to gain unauthorized access to the Services, or the computer systems or networks connected to the Services, through hacking password mining or any other means."
+        },
+        {
+          "company": "doubleverify.com",
+          "quote": "You may not attempt to gain unauthorized access to any Website, other accounts, computer systems, or networks connected to any DoubleVerify server or to any DoubleVerify solutions or services through "
+        },
+        {
+          "company": "braze.com",
+          "quote": "attempt to gain unauthorized access to the Services or its related systems or networks"
+        },
+        {
+          "company": "indiatimes.com",
+          "quote": "You may not attempt to gain unauthorized access to any Services, other accounts, computer systems or to any of the Services, through hacking, password mining or any other means."
+        }
+      ]
+    },
+    {
+      "n_quotes": 4,
+      "companies": [
+        "Cohere",
+        "brave.com",
+        "cloudns.net",
+        "opendns.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "Cohere",
+          "quote": "attempt to gain unauthorized access to the Cohere Solution, or bypass any measures we may use to prevent or restrict access to the Cohere Solution"
+        },
+        {
+          "company": "opendns.com",
+          "quote": "bypass any measures OpenDNS may use to prevent or restrict access to the Services or Software"
+        },
+        {
+          "company": "brave.com",
+          "quote": "bypass any measures Brave may use to prevent or restrict access to the Service (or parts thereof)."
+        },
+        {
+          "company": "cloudns.net",
+          "quote": "bypass any measures ClouDNS may use to prevent or restrict access to the Service."
+        }
+      ]
+    },
+    {
+      "n_quotes": 4,
+      "companies": [
+        "X Corp",
+        "amplitude.com",
+        "forbes.com",
+        "tumblr.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "X Corp",
+          "quote": "probe, scan, or test the vulnerability of any system or network or breach or circumvent any security or authentication measures"
+        },
+        {
+          "company": "tumblr.com",
+          "quote": "probe, scan, or test any system or network (particularly for vulnerabilities), or otherwise attempt to breach or circumvent any security or authentication measures"
+        },
+        {
+          "company": "forbes.com",
+          "quote": "attempting to probe, scan, or test the vulnerability of a system or network, or to breach security or authentication measures without proper authorization"
+        },
+        {
+          "company": "amplitude.com",
+          "quote": "attempt to probe, scan or test the vulnerability of the Amplitude Services, breach the security or authentication measures"
+        }
+      ]
+    },
+    {
+      "n_quotes": 4,
+      "companies": [
+        "temu.com",
+        "vungle.com",
+        "xAI"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS2"
+      ],
+      "example_quotes": [
+        {
+          "company": "vungle.com",
+          "quote": "the use of manual or automated software, devices, or other processes to \u201ccrawl,\u201d \u201cscrape,\u201d or \u201cspider\u201d any portion of the Services is strictly prohibited."
+        },
+        {
+          "company": "vungle.com",
+          "quote": "the use of manual or automated software, devices, or other processes to \u201ccrawl,\u201d \u201cscrape,\u201d or \u201cspider\u201d any portion of the Services is strictly prohibited."
+        },
+        {
+          "company": "temu.com",
+          "quote": "use of manual or automated software or other means to access, \u201ccrawl,\u201d \u201cscrape,\u201d or \u201cspider\u201d any page, data, or portion of or relating to the Services"
+        },
+        {
+          "company": "xAI",
+          "quote": "- \u201ccrawls,\u201d \u201cscrapes,\u201d or \u201cspiders\u201d any page, data or portion of or relating to the Services or Materials (through use of manual or automated means);"
+        }
+      ]
+    },
+    {
+      "n_quotes": 4,
+      "companies": [
+        "forter.com",
+        "okta.com"
+      ],
+      "clause_types": [
+        "AS1",
+        "AS2",
+        "AS3"
+      ],
+      "example_quotes": [
+        {
+          "company": "forter.com",
+          "quote": "Scrape, duplicate, reproduce, copy, license, sell or trade the Site or Content for any purpose, unless you have explicitly authorized to do so in a written agreement signed by an authorized Forter rep"
+        },
+        {
+          "company": "okta.com",
+          "quote": "Scrape, duplicate, reproduce, copy, republish, license, sell, trade or resell the Site or any of its content for any purpose"
+        },
+        {
+          "company": "okta.com",
+          "quote": "Scrape, duplicate, reproduce, copy, republish, license, sell, trade or resell the Site or any of its content for any purpose"
+        },
+        {
+          "company": "okta.com",
+          "quote": "unless you have specifically been permitted to do so in a separate written agreement signed by an authorized representative of Okta"
+        }
+      ]
+    },
+    {
+      "n_quotes": 3,
+      "companies": [
+        "OpenAI",
+        "chatgpt.com",
+        "weather.com"
+      ],
+      "clause_types": [
+        "AS1"
+      ],
+      "example_quotes": [
+        {
+          "company": "OpenAI",
+          "quote": "Automatically or programmatically extracting data or Output"
+        },
+        {
+          "company": "chatgpt.com",
+          "quote": "Automatically or programmatically extracting data or Output (defined below)."
+        },
+        {
+          "company": "weather.com",
+          "quote": "automatically or programmatically extract data or output"
+        }
+      ]
+    },
+    {
+      "n_quotes": 3,
+      "companies": [
+        "Snap",
+        "snapchat.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "Snap",
+          "quote": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access"
+        },
+        {
+          "company": "snapchat.com",
+          "quote": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access"
+        },
+        {
+          "company": "Snap",
+          "quote": "attempt to circumvent any content-filtering techniques we employ, or attempt to access areas or features of the Services that you are not authorised to access"
+        }
+      ]
+    },
+    {
+      "n_quotes": 3,
+      "companies": [
+        "foxnews.com",
+        "scribd.com",
+        "slideshare.net"
+      ],
+      "clause_types": [
+        "AS4"
+      ],
+      "example_quotes": [
+        {
+          "company": "scribd.com",
+          "quote": "Use any content made available through the Services for the purpose of training, fine-tuning, or otherwise developing a large language model or similar artificial intelligence system"
+        },
+        {
+          "company": "slideshare.net",
+          "quote": "Use any content made available through the Services for the purpose of training, fine-tuning, or otherwise developing a large language model or similar artificial intelligence system."
+        },
+        {
+          "company": "foxnews.com",
+          "quote": "scrape or in any way extract or use the Content available on or accessible through the Fox Services for the purpose of training any artificial intelligence algorithm"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "netflix.com",
+        "netflix.net"
+      ],
+      "clause_types": [
+        "AS4"
+      ],
+      "example_quotes": [
+        {
+          "company": "netflix.com",
+          "quote": "engage in any of the foregoing in connection with the use, creation, development, modification, prompting, fine-tuning, training, testing, benchmarking or validation of any machine learning tool"
+        },
+        {
+          "company": "netflix.net",
+          "quote": "engage in any of the foregoing in connection with the use, creation, development, modification, prompting, fine-tuning, training, testing, benchmarking or validation of any machine learning tool"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "Amazon",
+        "amzn.to"
+      ],
+      "clause_types": [
+        "AS1"
+      ],
+      "example_quotes": [
+        {
+          "company": "Amazon",
+          "quote": "No Agent may access, use, or interact with Amazon Services unless, at all times, it identifies itself and operates in strict accordance with the requirements in section 3 of these Agent Terms."
+        },
+        {
+          "company": "amzn.to",
+          "quote": "No Agent may access, use, or interact with Amazon Services unless, at all times, it identifies itself"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "Perplexity",
+        "supercell.com"
+      ],
+      "clause_types": [
+        "AS1"
+      ],
+      "example_quotes": [
+        {
+          "company": "Perplexity",
+          "quote": "use automation software (bots), hacks, modifications (mods) or any other unauthorized third-party software designed to modify the Services"
+        },
+        {
+          "company": "supercell.com",
+          "quote": "Use or take part (directly or indirectly) in the use of cheats, exploits, automation software, emulators, bots, hacks, mods or any unauthorized third-party software designed to modify or interfere wit"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "ibm.com",
+        "icloud-content.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "ibm.com",
+          "quote": "circumvent the navigational structure or presentation of IBM Websites or contents."
+        },
+        {
+          "company": "icloud-content.com",
+          "quote": "or in any way reproduce or circumvent the navigational structure or presentation of the Site or any Content"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "bbc.com",
+        "britannica.com"
+      ],
+      "clause_types": [
+        "AS4"
+      ],
+      "example_quotes": [
+        {
+          "company": "bbc.com",
+          "quote": "Anything taken from our Services to develop or train artificial intelligence or to do computer analysis"
+        },
+        {
+          "company": "britannica.com",
+          "quote": "such as artificial intelligence (\"AI\") for purposes of developing or training AI or conducting computer analysis, except with our express written consent"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "applovin.com",
+        "deepl.com"
+      ],
+      "clause_types": [
+        "AS6"
+      ],
+      "example_quotes": [
+        {
+          "company": "applovin.com",
+          "quote": "attempt to defeat, avoid, by-pass, remove, deactivate or otherwise circumvent any software protection mechanisms in the Platform or the Services"
+        },
+        {
+          "company": "deepl.com",
+          "quote": "Customer must not bypass, remove, defeat, avoid, deactivate or otherwise circumvent protection or authentication mechanisms"
+        }
+      ]
+    },
+    {
+      "n_quotes": 2,
+      "companies": [
+        "nintendo.com",
+        "uk.com"
+      ],
+      "clause_types": [
+        "AS3"
+      ],
+      "example_quotes": [
+        {
+          "company": "uk.com",
+          "quote": "Any use of the Sites or Site Materials other than as specifically authorized herein, without the prior written permission of UK.COM, is strictly prohibited"
+        },
+        {
+          "company": "nintendo.com",
+          "quote": "Any use of the Services or the Materials other than as specifically authorized herein, without the prior written permission of Nintendo, is strictly prohibited"
+        }
+      ]
+    }
+  ]
+}
