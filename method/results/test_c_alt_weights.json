@@ -34,10 +34,10 @@
         "baseline_rank": 4
       },
       {
-        "rank": 5,
+        "rank": 4,
         "company": "Yelp",
         "score": 2.4,
-        "baseline_rank": 5
+        "baseline_rank": 4
       },
       {
         "rank": 6,
@@ -58,14 +58,26 @@
         "baseline_rank": 8
       },
       {
-        "rank": 9,
+        "rank": 8,
         "company": "Google",
         "score": 1.75,
-        "baseline_rank": 9
+        "baseline_rank": 8
       },
       {
         "rank": 10,
         "company": "Meta",
+        "score": 1.5,
+        "baseline_rank": 10
+      },
+      {
+        "rank": 10,
+        "company": "Cohere",
+        "score": 1.5,
+        "baseline_rank": 10
+      },
+      {
+        "rank": 10,
+        "company": "Snap",
         "score": 1.5,
         "baseline_rank": 10
       }
@@ -87,7 +99,7 @@
         "rank": 3,
         "company": "Yelp",
         "score": 5.5,
-        "baseline_rank": 5
+        "baseline_rank": 4
       },
       {
         "rank": 4,
@@ -108,16 +120,16 @@
         "baseline_rank": 6
       },
       {
-        "rank": 7,
+        "rank": 6,
         "company": "OpenAI",
         "score": 4.75,
         "baseline_rank": 8
       },
       {
-        "rank": 8,
+        "rank": 6,
         "company": "Google",
         "score": 4.75,
-        "baseline_rank": 9
+        "baseline_rank": 8
       },
       {
         "rank": 9,
@@ -126,10 +138,10 @@
         "baseline_rank": 7
       },
       {
-        "rank": 10,
+        "rank": 9,
         "company": "GitHub",
         "score": 4.5,
-        "baseline_rank": 34
+        "baseline_rank": 24
       }
     ],
     "no liquidated damages": [
@@ -158,10 +170,10 @@
         "baseline_rank": 4
       },
       {
-        "rank": 5,
+        "rank": 4,
         "company": "Yelp",
         "score": 2.4,
-        "baseline_rank": 5
+        "baseline_rank": 4
       },
       {
         "rank": 6,
@@ -176,10 +188,10 @@
         "baseline_rank": 8
       },
       {
-        "rank": 8,
+        "rank": 7,
         "company": "Google",
         "score": 1.75,
-        "baseline_rank": 9
+        "baseline_rank": 8
       },
       {
         "rank": 9,
@@ -188,10 +200,16 @@
         "baseline_rank": 10
       },
       {
-        "rank": 10,
+        "rank": 9,
         "company": "Cohere",
         "score": 1.5,
-        "baseline_rank": 11
+        "baseline_rank": 10
+      },
+      {
+        "rank": 9,
+        "company": "Snap",
+        "score": 1.5,
+        "baseline_rank": 10
       }
     ],
     "forbid-only": [
@@ -202,7 +220,7 @@
         "baseline_rank": 2
       },
       {
-        "rank": 2,
+        "rank": 1,
         "company": "LinkedIn",
         "score": 6.5,
         "baseline_rank": 3
@@ -226,16 +244,16 @@
         "baseline_rank": 13
       },
       {
-        "rank": 6,
+        "rank": 5,
         "company": "Expedia",
         "score": 4.5,
-        "baseline_rank": 14
+        "baseline_rank": 13
       },
       {
-        "rank": 7,
+        "rank": 5,
         "company": "Airbnb",
         "score": 4.5,
-        "baseline_rank": 15
+        "baseline_rank": 13
       },
       {
         "rank": 8,
@@ -253,7 +271,7 @@
         "rank": 10,
         "company": "Yelp",
         "score": 3.0,
-        "baseline_rank": 5
+        "baseline_rank": 4
       }
     ],
     "take-only": [
@@ -261,7 +279,7 @@
         "rank": 1,
         "company": "GitHub",
         "score": 9.0,
-        "baseline_rank": 34
+        "baseline_rank": 24
       },
       {
         "rank": 2,
@@ -270,10 +288,10 @@
         "baseline_rank": 1
       },
       {
-        "rank": 3,
+        "rank": 2,
         "company": "Yelp",
         "score": 8.0,
-        "baseline_rank": 5
+        "baseline_rank": 4
       },
       {
         "rank": 4,
@@ -282,16 +300,16 @@
         "baseline_rank": 8
       },
       {
-        "rank": 5,
+        "rank": 4,
         "company": "Google",
         "score": 7.0,
-        "baseline_rank": 9
+        "baseline_rank": 8
       },
       {
-        "rank": 6,
+        "rank": 4,
         "company": "Mistral",
         "score": 7.0,
-        "baseline_rank": 28
+        "baseline_rank": 24
       },
       {
         "rank": 7,
@@ -300,22 +318,40 @@
         "baseline_rank": 2
       },
       {
-        "rank": 8,
+        "rank": 7,
         "company": "Reddit",
         "score": 6.0,
         "baseline_rank": 4
       },
       {
-        "rank": 9,
+        "rank": 7,
         "company": "Amazon",
         "score": 6.0,
         "baseline_rank": 6
       },
       {
-        "rank": 10,
+        "rank": 7,
         "company": "Meta",
         "score": 6.0,
         "baseline_rank": 10
+      },
+      {
+        "rank": 7,
+        "company": "Cohere",
+        "score": 6.0,
+        "baseline_rank": 10
+      },
+      {
+        "rank": 7,
+        "company": "Snap",
+        "score": 6.0,
+        "baseline_rank": 10
+      },
+      {
+        "rank": 7,
+        "company": "Booking.com",
+        "score": 6.0,
+        "baseline_rank": 17
       }
     ]
   },

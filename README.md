@@ -24,7 +24,7 @@ Data behind [The AI Hypocrisy Index](https://hasdata.com/blog/ai-hypocrisy-index
 
 Adobe tops the Index at 4.4, with a forbid score of 5.5 and a take score of 8. Perplexity follows at 3.9 and LinkedIn at 2.6. None of them disallows a single AI training crawler in its own `robots.txt`.
 
-![Bar chart showing the ten highest-scoring companies on the AI Hypocrisy Index, from Adobe at 4.4 down to Meta at 1.5](charts/leaderboard.png)
+![Bar chart showing the companies in the top ten places on the AI Hypocrisy Index, from Adobe at 4.4 down to Meta, Cohere and Snap tied at 1.5](charts/leaderboard.png)
 
 The content platforms hold the upper right of the forbid-against-take plane. Adobe, Perplexity, Reddit and Yelp restrict access hard in their Terms and claim broad rights over what users post.
 
@@ -52,7 +52,7 @@ The anti-scraping wording repeats across companies. The largest cluster of near-
 
 The ranking survives re-weighting. Adobe stays in the top 5 under all five weighting schemes, and Adobe, Amazon, Perplexity, Reddit and Yelp stay in the top 10 under all of them.
 
-![Heatmap showing rank per company across five weighting schemes for the top-15 companies plus outliers GitHub and Mistral. Adobe holds top-5 across every scheme, GitHub jumps from rank 34 to rank 1 under take-only weighting](charts/chart-alt-weights-heatmap.png)
+![Heatmap showing rank per company across five weighting schemes for the top-15 companies plus GitHub, Mistral and Booking.com. Adobe holds top-5 across every scheme, GitHub climbs from a shared 24th to 1st under take-only weighting](charts/chart-alt-weights-heatmap.png)
 
 The [article](https://hasdata.com/blog/ai-hypocrisy-index?utm_source=github&utm_medium=syndication&utm_campaign=ai-hypocrisy-index&utm_content=ai-hypocrisy-index-readme) quotes the clauses behind these numbers and covers the court cases around them, and every number above traces to a row in the files below.
 
@@ -134,7 +134,7 @@ The damages table holds `version_date`, `amount`, `currency`, `per` and the clau
 
 The `method/` folder holds three scripts that recompute the study's checks from the CSV files. They need only the Python standard library and write their output to `method/results/`.
 
-The first script, `test_a_robots_vs_terms.py`, splits the 35 companies into paper-only forbidders, silent enforcers, aligned strict and aligned lax. The second, `test_b_clause_similarity.py`, groups the anti-scraping quotes by wording and finds the shared templates. The third, `test_c_alt_weights.py`, ranks the companies under five weighting schemes (the baseline product, an equal-weight sum, the baseline without liquidated damages, forbid only and take only).
+The first script, `test_a_robots_vs_terms.py`, splits the 35 companies into paper-only forbidders, silent enforcers, aligned strict and aligned lax. The second, `test_b_clause_similarity.py`, groups the anti-scraping quotes by wording and finds the shared templates. The third, `test_c_alt_weights.py`, ranks the companies under five weighting schemes (the baseline product, an equal-weight sum, the baseline without liquidated damages, forbid only and take only). Tied scores share the best place (the min rule), so a top ten can hold more than ten companies.
 
 ```bash
 python method/test_a_robots_vs_terms.py

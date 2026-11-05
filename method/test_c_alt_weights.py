@@ -62,10 +62,12 @@ def main():
         r["alt_take_only"] = r["take_score"]
 
     # Baseline rank
-    baseline = {r["company"]: i + 1 for i, r in enumerate(sorted(rows, key=lambda r: -r["hypocrisy_index"]))}
-
     def rank_map(key):
-        return {r["company"]: i + 1 for i, r in enumerate(sorted(rows, key=lambda r: -r[key]))}
+        # min rule (pandas rank(method="min")): tied scores share the best place
+        vals = [round(r[key], 6) for r in rows]
+        return {r["company"]: 1 + sum(v > round(r[key], 6) for v in vals) for r in rows}
+
+    baseline = rank_map("hypocrisy_index")
 
     ranks_by_scheme = {
         "baseline (product)": baseline,
@@ -87,18 +89,20 @@ def main():
         ("take-only", "alt_take_only"),
     ]
     for label, key in schemes:
-        top = sorted(rows, key=lambda r: -r[key])[:10]
+        rk = ranks_by_scheme[label]
+        top = [r for r in sorted(rows, key=lambda r: -r[key]) if rk[r["company"]] <= 10]
         print(f"\n### {label}")
-        for i, r in enumerate(top, 1):
+        for r in top:
+            i = rk[r["company"]]
             b = baseline[r["company"]]
             delta = b - i
             arrow = f"(+{delta})" if delta > 0 else (f"({delta})" if delta < 0 else "")
             print(f"  {i:2}. {r['company']:20}  score={r[key]:.2f}  vs baseline #{b:2}  {arrow}")
 
     # Cross-scheme robustness: who's in top-5 across all schemes?
-    top5_by_scheme = {label: [r["company"] for r in sorted(rows, key=lambda x: -x[key])[:5]] for label, key in schemes}
+    top5_by_scheme = {label: [c for c, v in ranks_by_scheme[label].items() if v <= 5] for label, key in schemes}
     all_top5 = set.intersection(*[set(v) for v in top5_by_scheme.values()])
-    top10_by_scheme = {label: [r["company"] for r in sorted(rows, key=lambda x: -x[key])[:10]] for label, key in schemes}
+    top10_by_scheme = {label: [c for c, v in ranks_by_scheme[label].items() if v <= 10] for label, key in schemes}
     all_top10 = set.intersection(*[set(v) for v in top10_by_scheme.values()])
 
     print("\n" + "=" * 100)
@@ -110,7 +114,7 @@ def main():
     result = {
         "n_companies": len(rows),
         "schemes": [label for label, _ in schemes],
-        "top10_by_scheme": {label: [{"rank": i + 1, "company": r["company"], "score": round(r[key], 3), "baseline_rank": baseline[r["company"]]} for i, r in enumerate(sorted(rows, key=lambda x: -x[key])[:10])] for label, key in schemes},
+        "top10_by_scheme": {label: [{"rank": ranks_by_scheme[label][r["company"]], "company": r["company"], "score": round(r[key], 3), "baseline_rank": baseline[r["company"]]} for r in sorted(rows, key=lambda x: -x[key]) if ranks_by_scheme[label][r["company"]] <= 10] for label, key in schemes},
         "robust_top5_all_schemes": sorted(all_top5),
         "robust_top10_all_schemes": sorted(all_top10),
     }
